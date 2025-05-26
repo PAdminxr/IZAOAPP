@@ -1,4 +1,7 @@
 /node_modules
-/unpackage
+
 *.log
 .DS_Store
+# 忽略 uni-app 编译输出目录
+/unpackage/
+/dist/

@@ -5,11 +5,11 @@ export const routes = [
       redirect: '/index'
     },
     {
-      path: '/index',
-      name: 'index',
-      component: () => import('@/pages/index/index.vue'),
+      path: '/pay-to-merchant',
+      name: 'pay-to-merchant',
+      component: () => import('@/pages/pay-to-merchant/pay-to-merchant.vue'),
       meta: {
-        title: '首页',
+        title: '向商家付款',
         requiresAuth: false
       }
     }

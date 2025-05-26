@@ -1,6 +1,6 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/pay-to-merchant/pay-to-merchant"
   ],
   "window": {
     "navigationBarTextStyle": "black",

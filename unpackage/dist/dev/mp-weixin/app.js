@@ -2,7 +2,7 @@
 Object.defineProperty(exports, Symbol.toStringTag, { value: "Module" });
 const common_vendor = require("./common/vendor.js");
 if (!Math) {
-  "./pages/index/index.js";
+  "./pages/pay-to-merchant/pay-to-merchant.js";
 }
 const _sfc_main = {
   onLaunch: function() {
@@ -16,10 +16,13 @@ const _sfc_main = {
     common_vendor.index.__f__("log", "at App.vue:11", "App Hide");
   }
 };
+const pinia = common_vendor.createPinia();
 function createApp() {
   const app = common_vendor.createSSRApp(_sfc_main);
+  app.use(pinia);
   return {
-    app
+    app,
+    pinia
   };
 }
 createApp().app.mount("#app");

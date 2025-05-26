@@ -1,10 +1,14 @@
 {
-	"pages": [{
-		"path": "pages/index/index",
+	"pages": [
+	{
+		"path": "pages/pay-to-merchant/pay-to-merchant",
 		"style": {
-			"navigationBarTitleText": "uni-app"
+			"navigationBarTitleText": "向商家付款",
+			"backgroundColor": "#ffffff"
+
 		}
-	}],
+	}
+],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
